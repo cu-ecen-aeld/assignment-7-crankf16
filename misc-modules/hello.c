@@ -7,13 +7,13 @@ MODULE_LICENSE("Dual BSD/GPL");
 
 static int hello_init(void)
 {
-	printk(KERN_ALERT "Hello, world\n");
+	printk(KERN_ALERT "Hello, Crankf16\n");
 	return 0;
 }
 
 static void hello_exit(void)
 {
-	printk(KERN_ALERT "Goodbye, cruel world\n");
+	printk(KERN_ALERT "Goodbye, cruel Crankf16\nHey, I'm not that bad!!\n");
 }
 
 module_init(hello_init);
